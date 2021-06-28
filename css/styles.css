@@ -688,7 +688,7 @@ img {
   border-radius: 4px;
 }
 
-.button-close {
+.modal-btn-close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -697,8 +697,11 @@ img {
   background-color: var(--primary-bg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
+}
+
+.modal-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
